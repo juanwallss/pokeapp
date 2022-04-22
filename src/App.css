@@ -1,16 +1,26 @@
-.App {
+body {
   text-align: center;
+  background-color: #FF5F00;
+}
+.pokedex{
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  gap: 40px;
+  padding: 40px;
+  justify-content: center; 
+}
+.poke-grid{
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #EEEEEE;
+  height: auto;
+  border-radius: 10%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pokeimg{
+  background-color: #00092C;
+  border-radius: 100px;
+  height: 100px;
 }
 
 .App-header {
