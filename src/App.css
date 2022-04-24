@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #FF5F00;
+  background-color: #2a2a2a;
 }
 .pokedex{
 
@@ -11,14 +11,15 @@ body {
   justify-content: center; 
 }
 .poke-grid{
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #EEEEEE;
+  box-shadow: 7px 7px 7px rgba(53, 114, 255, 0.25);
+  background-color: #b9b9b9;
   height: auto;
   border-radius: 10%;
 }
 
 .pokeimg{
-  background-color: #00092C;
+  background-color: rgba(18, 11, 148, 0.25);
+  border: 1px solid rgba(255, 0, 0, 0.681);
   border-radius: 100px;
   height: 100px;
 }
